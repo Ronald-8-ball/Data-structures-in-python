@@ -1,0 +1,10 @@
+list = ["Apple", "Pineapple", "Avocado", "Banana", "Strawberry"]
+print("My fav_fruits are", list)
+print("The last element is", list[-1])
+print("The first element is", list[0])
+print("The slice is", list[1:3])
+print("The length of the list is",len(list))
+add = list.append("Mango")
+print("The updated list is", list)
+delete = list.remove("Avocado")
+print("The updated list is", list)
